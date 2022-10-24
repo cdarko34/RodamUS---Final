@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    background-image: url("../img/fondo-body.png");
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 700;
+    color: #D42027;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3,
+h4,
+h5,
+h6{
+    font-size: 1.5em;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+input{
+    margin-top: 1em;
+    padding: 0.5em;
+    border: none;
+    background-color: #F5F3F4;
+}
+
+label{
+    margin-top: 1em;
+    color: #D42027;
+}
+
+#contenedor{
+    background-color: white;
+}
+
+.validacion{
+    background-color: red;
+    color: white;
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+#boton{
+    background-color: #D42027;
+    color: white;
+    padding: 1em 0;
+    border: none;
+}
+
+.counter_conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    margin-top: 1rem;
+
+}
+
+#contenedor-precio{
+    font-size: 2em;
+    color: #D42027;
+    font-weight: 700;
+}
+
+#contenedor-pases a{
+
+    background-color: #D42027;
+    color: #F5F3F4;
+    width: 50%;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 2em;
+
+}

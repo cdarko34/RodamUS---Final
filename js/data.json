@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "titulo": "Golden Pass",
+      "precio": 3000,
+      "caracteristicas": "Entrada al evento, Checkin VIP <br/> Zona VIP para concierto <br/> Playera y parche conmemorativo del evento",
+      "cantidad": 1
+    },
+    {
+        "id": 2,
+        "titulo": "Silver Pass",
+        "precio": 2000,
+        "caracteristicas": "Entrada al evento <br/> Playera y parche conmemorativo del evento.",
+        "cantidad": 1
+      }
+  ]

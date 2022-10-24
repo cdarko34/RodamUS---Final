@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!--RodamUs CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    
+    
+
+
+
+    <title>RodamUs - Rodada Anual 2022</title>
+</head>
+
+
+<body class="d-flex justify-content-center align-items-center p-5">
+
+    <div id="contenedor" class="rounded-3 p-5 text-center">
+        <!--Título-->
+        <header>
+            <img src="./img/brand.svg" alt="logo RodamUs" width="200">
+            <h1>RodamUS 2022</h1>
+            <p>10 - 15 noviembre 2022</p>
+            <h2>¿Estás listo para vivir esta gran experiencia?</h2>
+            <p>No te quedes fuera del evento del año y compra ya tus entradas:</p>
+        </header>
+
+        <section id="formulario-registro">
+    
+            <!--Formulario de registro-->
+            <form method="post" class="d-flex flex-column flex-wrap">
+
+                <h3>Ingresa tus datos</h3>
+                
+                <input type="text" placeholder="Nombre" name="nombre" id="nombre" class="rounded-1">
+
+                <input type="text" placeholder="Teléfono" name="telefono" id="telefono" class="rounded-1">
+                
+                <input type="text" placeholder="Código Postal" name="zip" id="zip" class="rounded-1">
+                
+                <input type="email" placeholder="Correo electrónico" name="email" id="email" class="rounded-1">
+                
+                <label for="email2  ">Confirma tu correo electrónico</label>
+                <input type="email" placeholder="Confirma tu correo electrónico" name="email2" id="email2" class="rounded-1">
+
+                <div id="texto-validacion"></div>
+
+                    <!--Tipos de pases-->
+                    <div id="contenedor-pases" class="d-flex flex-column flex-wrap justify-content-center align-items-center align-self-center p-3 mt-4"  >
+                    </div> 
+
+                    <p id="contenedor-precio">Total: $0</p>
+
+                <input type="button" id="boton" value="¡Comprar entradas!" class="rounded-pill">
+            </form>
+        </section>  
+    </div>
+
+
+    <footer>
+        <div id="redes"></div>
+        <div id="legal"></div>
+    </footer>
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.35/dist/sweetalert2.all.min.js"></script>
+    
+    <!--Index JS-->
+    <script src="./js/index.js"></script>
+</body>
+</html>
